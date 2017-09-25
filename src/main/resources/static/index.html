@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<script type="text/javascript"
+	        src="webjars/jquery/2.2.4/jquery.min.js"></script>
+	
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+	
+		<h1>Upload a file which should be indexed</h1>
+		
+		<form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+		    <input type="text" name="title" placeholder="title"/><br/><br/>
+		    <input type="text" name="keywords" placeholder="keywords"/><br/><br/>
+		    <input type="file" name="files"/><br/><br/>
+		    <input type="file" name="files"/><br/><br/>
+		    <input type="submit" value="Submit" id="btnSubmit"/>
+		</form>
+		
+		<h1>Search using Lucene query language</h1>
+		
+		<form method="POST" id="luceneQueryLanguage">
+		    <input type="text" name="value" placeholder="query"/><br/><br/>
+		    <input type="submit" value="Submit" id="btnSubmitLuceneQueryLanguage"/>
+		</form>
+		
+		<h1>Search using Lucene TermQuery</h1>
+		
+		<form method="POST" id="luceneTermQuery">
+			<input type="text" name="field" placeholder="field" /><br/><br/>
+		    <input type="text" name="value" placeholder="value" /><br/><br/>
+		    <input type="submit" value="Submit" id="btnSubmitLuceneTermQuery"/>
+		</form>
+		
+		<h1>Result</h1>
+		<pre>
+		    <span id="result"></span>
+		</pre>
+	
+	</body>
+</html>

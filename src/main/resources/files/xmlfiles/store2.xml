@@ -1,0 +1,26 @@
+<bookstore>
+<book category="COOKING">
+  <title lang="en">Mexican Cooking</title> 
+  <author>Christine Barret</author> 
+  <year>2005</year> 
+  <price>10.99</price> 
+</book>
+<book category="COOKING">
+  <title lang="en">One dish meals - the easy way</title> 
+  <author>group of authors</author> 
+  <year>2004</year> 
+  <price>24.99</price> 
+</book>
+<book category="CHILDREN">
+  <title lang="en">Harry Potter and the Chamber of Secrets</title> 
+  <author>J K. Rowling</author> 
+  <year>2002</year> 
+  <price>29.99</price> 
+</book>
+<book category="PROGRAMMING">
+  <title lang="en">HTML and XHTML Step by Step</title> 
+  <author>Faithe Wempen</author> 
+  <year>2006</year> 
+  <price>4.99</price> 
+</book>
+</bookstore>
